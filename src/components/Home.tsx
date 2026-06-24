@@ -179,7 +179,8 @@ export function Home({
               className="space-y-4"
             >
               <h1 className="text-3xl sm:text-4xl lg:text-3xl xl:text-4xl font-sans font-black tracking-tight text-white leading-[1.12]">
-                RECLAIM <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300 font-serif font-black italic">YOUR VITALITY</span> <br />
+                TRUSTED SOLUTIONS FOR <br />
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300 font-serif font-black italic">HEALTH, WELLNESS AND VITALITY</span> <br />
                 CONQUER CHRONIC <br />
                 AILMENTS.
               </h1>
@@ -340,7 +341,8 @@ export function Home({
           {/* First Subsection: 10% space - Heading and Subheading only */}
           <div className="h-[10%] sm:h-[10%] flex flex-col justify-center items-center text-center">
             <h1 className="text-2xl sm:text-3xl font-sans font-black tracking-tight text-white leading-none">
-              RECLAIM <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300 font-serif font-black italic">YOUR VITALITY</span>
+              TRUSTED SOLUTIONS FOR <br className="sm:hidden" />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300 font-serif font-black italic">HEALTH, WELLNESS AND VITALITY</span>
             </h1>
             <p className="text-[10px] sm:text-xs text-slate-300 font-extrabold uppercase tracking-widest mt-1.5">
               Organic Traditional Chinese Medicine
